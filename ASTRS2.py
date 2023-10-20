@@ -11,17 +11,17 @@ def main():
 	y = 5.9
 	z = 3
 	k = 8
-
+	#Function that sums two numbers and prints the sum and datatype
 	def sumfunc(x,y):
 		summ = x + y
 		print(f"The sum of {x} and {y} is {summ}, the datatype is {type(summ)}")
 
-
+	#Function that finds the difference between two numbers and prints the difference and datatype
 	def diffunc(z,k):
 		dif = abs(z+k)
 		print(f"The difference of {z} and {k} is {dif}, the datatype is {type(dif)}")
 
-
+	#Function that finds the product between two numbers and prints the product and datatype
 	def prodfunc(k,y):
 		prod = (k*y)
 		print(f"The product of {k} and {y} is {prod}, the datatype is{type(prod)}")
@@ -32,7 +32,7 @@ def main():
 
 
 
-
+	#Calling the functions
 	sumfunc(x,y)
 	diffunc(z,k)
 	prodfunc(k,y)
