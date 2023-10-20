@@ -5,7 +5,7 @@ Use an if statement that executes if the result is larger than 27 and prints “
 
 def main():
 
-
+	#Function that returns a number to the power of 3 plus 8, if the returned value is larger than 27 it returns "YAY!
 	def tfunc(x):
 
 		ans = ((x**3)+8)
