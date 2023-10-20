@@ -10,6 +10,7 @@ Write a member function of the class to print out and describe the data members 
 def main():
 
 	class Animal:
+		#Defines/Initializes the characteristics of the class
 		def __init__(self,LOA,LOL,NOE,tail,furry):
 			self.LOA = float(LOA)
 			self.LOL = float(LOL)
@@ -18,9 +19,9 @@ def main():
 			self.furry = bool(furry)
 
 
-
+	#Creates an animal object and declares it's characteristics
 	A1 =Animal(8.0, 8.0, 2, True, True)
-
+	#Prints the characteristics of the created animal object
 	def PANC(x):
 		print(f"The animal's legs are {x.LOL} inches long.")
 		print(f"The animal's arms are {x.LOA} inches long.")
